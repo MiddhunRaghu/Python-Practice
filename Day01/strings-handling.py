@@ -30,3 +30,4 @@ else:
 feedback = "The driver was very friendly and the ride was smooth."
 print("position is:", feedback.find("friendly")) #finding the position of the word "friendly" in the feedback message
 
+print("Length of feedback:", len(feedback.split())) #finding the length of the feedback message
