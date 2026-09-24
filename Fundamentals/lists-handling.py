@@ -46,7 +46,5 @@ leaders = ["Josheph Vijay" , "Pawan Kalyan" , "Stalin" , "Rajinikanth" , "Narend
 
 #enumerate is used to get the index and value of each item in the list during iteration
 
-# for i, leader in enumerate(leaders):
-#     print(f"Leader {i}: {leader}")  # Print the index and name of each leader in the list
-
-    
+for i, leader in enumerate(leaders):
+    print(f"Leader {i}: {leader}")  # Print the index and name of each leader in the list

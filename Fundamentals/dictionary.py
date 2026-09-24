@@ -41,5 +41,5 @@ trips = {
 # print(trips["UB001"]["Fare"])
 
 for trip_id,details in trips.items():
-    print(trip_id)
+    print(trip_id.sleep)
     print(details["pickup_location"] , "->" ,details["drop_location"] )

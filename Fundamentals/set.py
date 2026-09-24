@@ -1,9 +1,9 @@
-# uber_city1 = {"Erode", "Coimbatore", "Chennai"}
-# uber_city2 = {"Bangalore", "Coimbatore", "Hyderabad"}
+uber_city1 = {"Erode", "Coimbatore", "Chennai"}
+uber_city2 = {"Bangalore", "Coimbatore", "Hyderabad"}
 
-# print(uber_city1.union(uber_city2))  # Union of two sets
-# print(uber_city1.intersection(uber_city2))  # Intersection of two sets
-# print(uber_city1.difference(uber_city2))  # Difference of two sets
+print(uber_city1.union(uber_city2))  # Union of two sets
+print(uber_city1.intersection(uber_city2))  # Intersection of two sets
+print(uber_city1.difference(uber_city2))  # Difference of two sets
 
 my_set = {1, 2, 3, 4, 5}
 print(my_set)  # Print the original set
