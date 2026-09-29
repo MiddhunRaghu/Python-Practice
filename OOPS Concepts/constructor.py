@@ -11,3 +11,12 @@ s2 = StudentDetails("Kishore" , 26)
 s1.fetchdetails()
 s2.fetchdetails()
 
+class MathTools:
+    def square(self , n):
+        return n * n
+    
+    def cube(self , n):
+        return n * n * n
+
+tool = MathTools()
+print(tool.square(4))
